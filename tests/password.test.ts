@@ -1,4 +1,4 @@
-import { calculatePasswordStrength } from "../src/password-strength";
+import { calculatePasswordStrength } from "../src/password-strength"
 
 describe("calculatePasswordStrength", () => {
     test("should return 'Very Weak' for passwords with insufficient length", () => {
